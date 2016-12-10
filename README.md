@@ -1,4 +1,4 @@
-### Faster R-CNN under CPU only mode using docker
+# Faster R-CNN under CPU only mode using docker
 
 About Faster R-CNN, see _README.md
 
