@@ -97,4 +97,4 @@ About Faster R-CNN, see _README.md
 
 > [How to setup with CPU ONLY mode](https://github.com/rbgirshick/py-faster-rcnn/issues/123)  
 > [I got the error when running demo.py](https://github.com/rbgirshick/py-faster-rcnn/issues/8)  
-> [Caffe failed with py-faster-rcnn demo.py on TX1](ht
+> [Caffe failed with py-faster-rcnn demo.py on TX1](https://devtalk.nvidia.com/default/topic/974063/caffe-failed-with-py-faster-rcnn-demo-py-on-tx1/)
