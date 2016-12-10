@@ -47,7 +47,7 @@ About Faster R-CNN, see _README.md
 1. clone
  
  ```
- git clone --recursive https://github.com/shawnau/py-faster-rcnn.git
+ git clone --recursive https://github.com/shawnau/py-faster-rcnn-cpu.git
  ```
  
 2. compile(assuming the root of the repo is $FRCN_ROOT)
