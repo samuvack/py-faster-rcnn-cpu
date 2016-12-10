@@ -1,7 +1,6 @@
 # Faster R-CNN under CPU only mode using docker
 
-About Faster R-CNN, see _README.md
-
+About Faster R-CNN, see [_README.md](py-faster-rcnn-cpu/_README.md)
 ## 1. System Info
  - Ubuntu 14.04 LTS x64 (I'm using VMWare Fusion)
  - Note: Please keep memory >= 4GB, or you may encounter following errors:
