@@ -58,7 +58,7 @@ About Faster R-CNN, see [_README.md](py-faster-rcnn-cpu/_README.md)
  make
  
  cd $FRCN_ROOT/caffe-fast-rcnn
- git checkout faster-rcnn
+ git checkout faster-rcnn-upstream-33f2445
  make -j8 && make pycaffe
  ```
 
