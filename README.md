@@ -81,6 +81,9 @@ This will connect to the particular container
 4. run demo
 
  ```
+ #if error Failed to initialize libdc1394
+ sudo ln /dev/null /dev/raw1394
+ 
  cd $FRCN_ROOT
  ./tools/demo.py --cpu --net zf
  ```
