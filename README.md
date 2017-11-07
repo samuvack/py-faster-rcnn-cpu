@@ -1,6 +1,15 @@
 # Faster R-CNN under CPU only mode using docker
 
 About Faster R-CNN, see [_README.md](py-faster-rcnn-cpu/_README.md)
+
+
+## 0. Start installed Docker
+docker start $(docker ps -a -q --filter "status=exited")
+This will start all container which are in exited state.
+
+docker exec -it <container-id> /bin/bash
+This will connect to the particular container
+
 ## 1. System Info
  - Ubuntu 14.04 LTS x64 (I'm using VMWare Fusion)
  - Note: Please keep memory >= 4GB, or you may encounter following errors:
