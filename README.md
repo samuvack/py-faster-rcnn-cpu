@@ -10,6 +10,9 @@ This will start all container which are in exited state.
 docker exec -it <container-id> /bin/bash
 This will connect to the particular container
 
+
+
+
 ## 1. System Info
  - Ubuntu 14.04 LTS x64 (I'm using VMWare Fusion)
  - Note: Please keep memory >= 4GB, or you may encounter following errors:
@@ -69,7 +72,12 @@ This will connect to the particular container
  cd $FRCN_ROOT/caffe-fast-rcnn
  git checkout faster-rcnn-upstream-33f2445
  make -j8 && make pycaffe
+ 
  ```
+ When error: "cublas_v2.h: No such file or directory"
+ ```
+cmake -DCAFFE_CPU_ONLY=True
+```
 
 3. download pretrained caffemodel
 
