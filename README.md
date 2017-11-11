@@ -4,11 +4,15 @@ About Faster R-CNN, see [_README.md](py-faster-rcnn-cpu/_README.md)
 
 
 ## 0. Start installed Docker
-docker start $(docker ps -a -q --filter "status=exited")
-This will start all container which are in exited state.
+This will give list
+```docker ps -a```
 
-docker exec -it <container-id> /bin/bash
+This will start all container which are in exited state.
+```docker start $(docker ps -a -q --filter "status=exited")```
+
 This will connect to the particular container
+```docker exec -it <container-id> /bin/bash```
+
 
 
 
